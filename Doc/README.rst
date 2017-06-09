@@ -14,10 +14,15 @@ developers guide.
 Building the docs
 =================
 
-You need to have `Sphinx <http://sphinx-doc.org/>`_ installed; it is the toolset
-used to build the docs.  It is not included in this tree, but maintained
-separately and `available from PyPI <https://pypi.python.org/pypi/Sphinx>`_.
+You need to have `Sphinx <http://sphinx-doc.org/>`_ and the Sphinx theme for Python
+docs installed. Sphinx is the toolset used to build the docs, it is not
+included in this tree, but maintained separately and
+`available from PyPI <https://pypi.python.org/pypi/Sphinx>`_. The theme is
+likewise separately maintained and is
+`available from GitHub <https://github.com/python/python-docs-theme>`_. You
+can install both using ``pip``::
 
+    python -m pip install sphinx~=1.6.1 git+https://github.com/python/python-docs-theme.git#egg=python-docs-theme
 
 Using make
 ----------
