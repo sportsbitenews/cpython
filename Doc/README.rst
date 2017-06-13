@@ -24,6 +24,9 @@ can install both using ``pip``::
 
     python -m pip install sphinx~=1.6.1 git+https://github.com/python/python-docs-theme.git#egg=python-docs-theme
 
+Note that the theme is intentionally not published to PyPI to avoid having the
+CPython maintainers deal with an intermediate release step.
+
 Using make
 ----------
 
